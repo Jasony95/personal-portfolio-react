@@ -1,8 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: inline-flex;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
+  flex-direction: column; 
 }
 
 .logo {
@@ -39,4 +50,25 @@
 
 .read-the-docs {
   color: #888;
+}
+
+body {
+  background-color: #F0F7F4;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  width: auto;
+  /* flex-direction: row; */
 }

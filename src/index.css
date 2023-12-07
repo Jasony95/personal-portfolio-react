@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -28,6 +28,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 h1 {
@@ -65,4 +68,168 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+header {
+  background-color: #705d56;
+  padding: 1em;
+}
+
+body {
+  background-color: #f0f7f4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fullName {
+  font-size: 2.9em;
+  line-height: 1.1px;
+  text-align: start;
+  padding: 1em;
+  display: inline-block;
+  color: #32292f;
+}
+
+li {
+  padding: .5em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav {
+  display: inline-block;
+  justify-content: end;
+  font-size: 1.85em;
+}
+
+.foot {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  padding: 1em;
+}
+
+.main-section {
+  padding: 10px;
+}
+
+.aboutMeCard {
+  padding: 50px;
+  background-color: #70abaf;
+}
+
+.aboutMeTitle {
+  display: block;
+}
+
+.aboutMeDiscription {
+  text-indent: 10px;
+  padding: 10px;
+  background-color: #99e1d9;
+}
+
+.portfolioCard {
+  padding: 50px;
+  background-color: #70abaf;
+}
+
+.portfolioTitle {
+  display: block;
+  font-size: 2.5em;
+}
+
+.portfolioDiscription {
+  text-indent: 10px;
+  padding: 10px;
+  background-color: #99e1d9;
+}
+
+.contactCard {
+  padding: 50px;
+  background-color: #70abaf;
+}
+
+.contactTitle {
+  display: block;
+}
+
+.contactDiscription {
+  text-indent: 10px;
+  padding: 10px;
+  background-color: #99e1d9;
+}
+
+.resumeCard {
+  padding: 50px;
+  background-color: #70abaf;
+}
+
+.resumeTitle {
+  display: block;
+}
+
+.resumeDiscription {
+  text-indent: 10px;
+  padding: 10px;
+  background-color: #99e1d9;
+}
+
+.contentCard {
+  padding: 50px;
+  background-color: #70abaf;
+}
+
+.title {
+  display: block;
+}
+
+.discription {
+  text-indent: 10px;
+  padding: 10px;
+  background-color: #99e1d9;
+}
+
+.group-head {
+  font-size: 2.2em;
+  color: #32292f;
+  text-align: center;
+}
+
+img {
+  /* width: 100px;
+  height: 100px;
+  display: inline-block; */
+  align-content: center;
+}
+
+button {
+  display: block;
+  color: white;
+  background-color: #705d56;
+}
+
+footer {
+  background-color: #32292f;
+  padding: 1em;
+}
+
+foot {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.repo {
+  display: block;
+}
+
+.head1 {
+  font-size: 2.1em;
+  text-align: center;
 }

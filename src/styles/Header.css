@@ -1,0 +1,21 @@
+header {
+  background-color: #705d56;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: start;
+}
+
+.head-name {
+  display:inline-block;
+  padding: 5%;
+}
+
+/* .nav-bar {
+  background-color: #705d56;
+  flex-direction: row; 
+  display: inline-block;
+  width: 100%;
+} */
